@@ -68,8 +68,6 @@ pipeline {
             }
         }
 
-        
-
         stage('Build App Image') {
             steps {
                 script {
